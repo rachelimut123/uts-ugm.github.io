@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Praktek SIGNET Minggu-2</title>
+</head>
+<body>
+    <h1>NOMOR 1 </h2>
+    <svg height="2" width="500" xmlns="http://www.w3.org/2000/svg">
+    </svg>
+    <p> 1. Halaman web berisi keterangan berbentuk esai dari kegiatan praktikum yang telah dilaksanakan setiap minggu</p>
+    <br>
+    <p1>PENYELESAIAN :</p1>
+    <br>
+    <p2>Praktikum Sistem Informasi Geografis Berbasis Web ini sudah menyelesaikan praktikum dari minggu 1 hingga minggu 7. SIG berbasis Web ini memiliki peran penting untuk penyelesaian masalah berbasis SIG yang dimana berguna untuk visualisasi hasil penyelesaian masalah daapat berbentuk dashboard yang sudah dipublikasi, maupun dalam bentuk bootstrap. </p2>
+    <p3>Praktikum Minggu 1-2, menjelaskan kategori penyelesaian untuk membuat tampilan website sesuai yang diperintah, dan disesuaikan dengan rules sesuai tugas yang ada di modul. Adapun itu dengan tampilan gambar kucing dan pembuatan form dengan jenis kucing dan asal jenis kucing tersebut. Pada tugas nomor 2, diperintahkan untuk pembuatan website yang dimana menampilkan informasi daerah Prancis dengan tampilan navigasi,home, gambar dari wilayah Prancis, penjelasan wilayah Prancis yang menarik, dan lain-lain. Lalu pada soal ketiga, diminta membuat profil CV kita melalui website Wix.com yang dimana membuat portofolio kita selama berkegiatan perkuliahan di Teknik Geodesi UGM ini.</p3>
+    <p4>Praktikum Minggu 3-4, menjelaskan kategori pembuatan input angka dan pembuatan angka fibbonacci, faktorial, dan-lain-lain. Adapun maksud dan tujuan pembelajaran ini ialah untuk mengetahui penggunaan html yang dimana menjadi kerangka awal untuk pembuatan website. Rules sederhana pada tugas di minggu 3 ini, menjadi bekal untuk pembelajaran tugas di minggu 4.</p4>
+    <p5>Praktikum Minggu 5, menjelaskan kategori pembuatan cv menggunakan bootstrap dan dilakukan publikasi hasil public cv, dengan memberikan link hasil ke tugas form. CV berisi pengalaman selama berkuliah di Teknik Geodesi UGM, yang menggunakan repository github.com.</p5> 
+    <p6>Praktikum Minggu 6, menjelaskan kategori pembuatan Peta Leaflet.js yang dimana membuat peta OSM dengan bantuan CSS,HTML,Java Script. Pembuatan tugas ini meliputi atribut marker, dan heading website. Lalu hasil pembuatan peta rute tersebut, dimasukkan hasilnya dan dipublikasi pada github.com untuk dapat dilakukannya publikasi.</p6>
+    <p7>Praktikum Minggu 7, menjelaskan kategori pembuatan Peta Leaflet.js yang dimana hampir sama dengan pembuatan tugas Praktikum Minggu 6, akan tetapi ada pembaharuan kategori yaitu penambahan beberapa atribut berupa marker, kolom pencarian dan navgiasi lokasi user saat ini, dan layer-layer peta yang dapat diakses user, dan layer nya pun ditambahkan dari file shp yang diconvert ke file format geojson untuk diambilnya data koordinat wilayah Daerah Istimewa Yogyakarta untuk pembuatan klasifikasi di tiap kota dan kabupatennya di wilayah DIY.</p7>
+
+    <br><br>
+    <h2>Berikut data diri saya :</h2>
+    <hr>
+    <br>
+    <h3> Setelah heading kedua ini ada tabel</h3>
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>Nama </th>
+            <th>NIM</th>
+        </tr>
+        <tr>
+            <td><b>Rachel Mirenda Papua Pasaribu</b></td></td>
+            <td><b>22/503432/TK/55006</b></td>
+        </tr>
+    
+    <p8><i>Terdapat tulisan miring</i>, <b>dan tebal.</b></p8>
+    <br>
+    <p9 style="color:red ;"> Baris yang ini warnanya merah </p9>
+    <br>
+    <p10 style="color:magenta;"> Baris yang ini warnanya magenta </p10>
+    <br>
+    <br>
+    <br>
+    <a href="https://geodesi.ugm.ac.id/" target="_blank" rel="noopener noreferrer">
+        Link menuju website Teknik Geodesi UGM.
+
+    <br>
+    <br>
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Validasi Input</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    padding: 30px;
+                }
+                .container {
+                    border: 1px solid #000;
+                    padding: 20px;
+                    width: 400px;
+                }
+                input {
+                    display: block;
+                    margin-bottom: 10px;
+                    padding: 5px;
+                    width: 250px;
+                }
+                button {
+                    padding: 5px 10px;
+                }
+            </style>
+            <br>
+        </head>
+        <body>
+        
+            <div class="container">
+                <h2>Formulir Validasi Pekerjaan Selesai</h2>
+                <p>Masukkan nama, password dan alamat email anda :</p>
+        
+                <form onsubmit="return validasiForm()">
+                    Nama : <input type="text" id="nama"><br>
+                    Password: <input type="password" id="password"><br>
+                    E-mail: <input type="text" id="email"><br>
+                    <button type="submit">Klik</button>
+                </form>
+            </div>
+            <br>
+            <br>
+        
+            <script>
+                function validasiForm() {
+                    let password = document.getElementById("password").value;
+        
+                    if (password !== "Selesai") {
+                        alert("password salah");
+                        return false; // mencegah form terkirim
+                    }
+        
+                    alert("Password benar. Form berhasil dikirim!");
+                    return true;
+                }
+            </script>
+        
+        </body>
+        </html>
+        
+    </table>
+    </body>
+</html>
